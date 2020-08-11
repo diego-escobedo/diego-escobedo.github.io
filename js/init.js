@@ -3,7 +3,7 @@
     console.log("Document is ready !")
 
     $('.button-collapse').sideNav();
-    
+
     Materialize.showStaggeredList('#nav-mobile');
 
     $(".side-link a").click(function(e) {
@@ -40,7 +40,7 @@
         });
     });
 
-    var copyrightText = "© " + (new Date).getFullYear() + " Nikhil Maheshwari";
+    var copyrightText = "© " + (new Date).getFullYear() + " Diego Escobedo";
     $("#copyright-txt").html(copyrightText);
 
   }); // end of document ready
