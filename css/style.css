@@ -6,10 +6,50 @@
  * Copyright (c) 2016 Nikhil Maheshwari
  */
 
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.description-container li {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin: 10px auto 10px auto;
+}
+
+.description-container ul {
+  text-align: left;
+  margin: auto auto auto 20px;
+}
+
+.job-meta-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.class-number {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   font-weight: bold;
+ }
+
+.class-name {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+ }
+
+
 .logo {
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 80px;
+  margin: 10% auto 10% auto;
 }
 
 #logo-container {
