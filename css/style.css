@@ -6,6 +6,12 @@
  * Copyright (c) 2016 Nikhil Maheshwari
  */
 
+.appimg {
+  max-width: 100%;
+}
+.iconify-sizer {
+  font-size: 32px;
+}
 
 .description-container {
   display: flex;
@@ -18,10 +24,12 @@
   list-style-position: inside;
   margin: 10px 10px 10px auto;
 }
-
+.slides li {
+  list-style-type: none;
+}
 .description-container ul {
   text-align: left;
-  margin: auto auto auto 20px;
+  margin: auto auto 20px 20px;
 }
 
 .job-meta-info {
@@ -38,6 +46,12 @@
    align-items: center;
    font-weight: bold;
  }
+
+ .class-holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
 .class-name {
    display: flex;
@@ -62,6 +76,10 @@
 }
 
 .side-link {
+  text-align: right;
+}
+
+.side-link-resume {
   text-align: right;
 }
 
