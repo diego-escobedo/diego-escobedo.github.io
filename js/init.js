@@ -2,6 +2,10 @@
   $(function(){
     console.log("Document is ready !")
 
+    $(document).ready(function () {
+        $('.slider').slider({full_width: true});
+    });
+
     $('.button-collapse').sideNav();
 
     Materialize.showStaggeredList('#nav-mobile');
