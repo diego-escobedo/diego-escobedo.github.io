@@ -13,6 +13,10 @@
   font-size: 32px;
 }
 
+.skill-name {
+  font-weight: bold;
+}
+
 .description-container {
   display: flex;
   flex-direction: column;
@@ -93,7 +97,7 @@
 }
 
 .side-link-footer {
-  position: fixed;
+  margin: 30px auto auto auto;
   top: 80%;
   width: 100%;
 }
