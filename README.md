@@ -4,4 +4,4 @@ A quick personal portfolio that has some details about my skills, experience, an
 
 ## Link
 
-https://diego-escobedo.github.io/diego.github.io/
+https://diego-escobedo.github.io/
